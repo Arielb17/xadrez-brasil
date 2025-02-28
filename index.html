@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento de Xadrez</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-32x32.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="images/chess1.jpg" alt="Galeria 1">
+            <img src="images/chess2.jpeg" alt="Galeria 2">
+            <img src="images/chess3.jpeg" alt="Galeria 3">
+            <img src="images/chess4.jpeg" alt="Galeria 4">
+            <img src="images/chess5.jpg" alt="Galeria 5">
+            <img src="images/chess6.jpg" alt="Galeria 6">
+            <img src="images/chess7.jpg" alt="Galeria 7">
+        </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Xadrez Brasil</h1>
+        <h2>08/03/2025 - UFMA</h2>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#programacao">Programação</a>
+        <a href="#inscricao">Inscrições</a>
+    </nav>
+
+    <!-- Conteúdo -->
+    <div class="container">
+        <div id="home" class="tab-content active">
+            <h2>Informações do Evento</h2>
+            <p>Com Apoio Ufma e PET Computação, um evento de xadrez surpreendente, repleto de estratégia e competição!🎉</p>
+            <p>😎ATENÇÃO: O Evento de Xadrez será realizado em SÃO LUÍS</p>
+            <p>📌Local: Centro Pedagógico Paulo Freire</p>
+            <p>No dia 23 de novembro de 2025, das 14h às 17h, a cidade de São Luís será o palco do mais fascinante e inesperado evento de xadrez do ano. Este evento promete 
+            reunir entusiastas do xadrez, estudantes, profissionais e curiosos para uma tarde de pura estratégia e descoberta. O evento terá início às 14h com a abertura oficial e uma 
+            calorosa recepção dos organizadores, seguida por uma palestra inspiradora às 14h30min, onde um renomado especialista em xadrez compartilhará insights sobre as últimas tendências
+            e avanços no campo.</p> 
+            <p>A palestra abordará tópicos desde a abertura até o final do jogo, proporcionando uma visão abrangente do futuro do xadrez.
+            Às 15h30min, os participantes terão a oportunidade de assistir a uma emocionante demonstração de partidas rápidas em ação. Equipados com técnicas avançadas e estratégias de 
+            jogo, esses jogadores irão mostrar como o xadrez pode ser aplicado em situações do cotidiano, como tomada de decisões e resolução de problemas.
+            Após um breve intervalo para networking das 16h às 16h30min, onde os participantes poderão trocar ideias e experiências, o evento 
+            culminará em uma competição de xadrez.</p> 
+            <p>Equipes de diversas partes do país irão competir em uma série de desafios que testam a criatividade, 
+            a habilidade técnica e a inovação. Será uma verdadeira batalha de engenhosidade, com jogadores enfrentando obstáculos, realizando jogadas complexas e surpreendendo a todos com suas capacidades.</p>
+        </div>
+
+        <div id="programacao" class="tab-content">
+            <h2>Programação</h2>
+            <ul>
+                <li>14:00 - Início</li>
+                <li>14:10 - 14:30 Abertura e Boas-Vindas</li>
+                <li>14:30 - 15:30 Palestra: Estratégias Avançadas no Xadrez</li>
+                <li>15:30 - 16:00 Demonstração de Partidas Rápidas</li>
+                <li>16:00 - 16:30 Intervalo para Networking</li>
+                <li>16:30 - 17:00 Competição de Xadrez</li>
+                <li>17:00 - Fim</li>
+            </ul>
+        </div>
+
+        <div id="inscricao" class="tab-content">
+            <h2>Inscrições</h2>
+            <form id="inscricao-form">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>  <!--required informando que o campo é obrigatório -->
+                
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha" required><br><br>
+                
+                <button type="submit">Confirmar Inscrição</button>
+            </form>
+            <p id="confirmacao" style="display:none;">Inscrição confirmada!</p>
+        </div>
+    </div>
+
+    <!-- Rodapé: Organização e Contatos -->
+    <footer>
+        <h2>Organização</h2>
+        <a href="https://portalpadrao.ufma.br/site" target="_blank">
+            <img src="images/logo ufma.png" alt="Logo 1" class="clickable-logo">
+        </a>
+        <a href="https://petcompufma.org" target="_blank">
+            <img src="images/logopetcomp.png" alt="Logo 2" class="clickable-logo">
+        </a>
+        <img src="images/favicon-32x32.png" alt="Logo 3">
+        <h2>Contatos</h2>
+        <p>Email: <a href="mailto:sitedeeventos@gmail.com">sitedeeventos@gmail.com</a></p>
+        <a href="https://www.instagram.com/petcompufma/" target="_blank">
+            <img src="images/Instagram_logo.png" alt="Instagram" class="social-icon">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
